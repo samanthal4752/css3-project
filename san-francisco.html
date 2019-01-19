@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--Credits: Trolley: https://www.flickr.com/photos/thomanication/6217279770-->
+<!--Credits: Lombard: https://commons.wikimedia.org/wiki/File:Lombard_Street_San_Francisco_2004.jpg-->
+<!--Credits for Alcatraz picture: https://fy.wikipedia.org/wiki/Ofbyld:Alcatraz_Island_photo_D_Ramey_Logan.jpg-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style type="text/css">
+        h1 {
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 2px solid black;
+            background: yellow;
+            color: black;
+            transition: color 2s;
+        }
+
+        h1:hover {
+            color: red;
+        }
+
+        #lombard {
+
+            display: block;
+            margin-left: 1500px;
+            width: 300px;
+            height: 200px;
+
+        }
+
+        #alcatraz {
+
+            display: block;
+            text-align: left;
+            width: 300px;
+            height: 100px
+        }
+
+        #goldengate {
+
+            margin-left: 800px;
+            margin-bottom: 100px;
+            display: block;
+            width: 100px;
+            height: 100px;
+           
+        }
+        
+
+        div:hover {
+            width: 400px;
+        }
+
+        p {
+            font-weight: bold;
+            color: black;
+            transition: color 2s;
+             animation-name:goldenchange;
+            animation-duration:3s;
+            animation-iteration-count: infinite;
+        }
+
+        
+        @keyframes goldenchange {
+            from{color:black;}
+            to{color:orange;}
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Travel Guide to San Francisco</h1>
+
+    <img src=trolley1.jpg>
+    <p>Take a ride in a trolley!</p>
+
+    <div id="lombard">
+        <img src=lombard.jpg>
+        <p>Drive down one of the top tourist attractions Lombard Street! Lombard street was built to increase the safety of the street because the street was very steep.</p>
+    </div>
+
+    <div id="goldengate">
+        <img src=goldengate.jpg>
+        <p>Walk on the Golden Gate Bridge from San Francisco to a small city named Sausalito
+        </p>
+
+    </div>
+
+    <div id="alcatraz">
+        <img src=alcatraz.jpg>
+        <p>Take a boat to the notorious prison Alcatraz! Alcatraz is known for where the most dangerous prisoners were kept in. The prison had to shut down because running the facility was too expensive. 36 prisoners tried escaping and only 3 escaped successfully.
+        </p>
+
+    </div>
+
+
+</body>
+
+</html>
